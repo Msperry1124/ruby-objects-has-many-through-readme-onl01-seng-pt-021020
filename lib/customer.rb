@@ -7,7 +7,7 @@ class Customer
     @name = name
     @age = age
     @@all << self
-  end 
+  end
 
   def self.all
     @@all
